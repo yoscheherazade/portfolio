@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,400|Rock+Salt" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <title>LaQuita G | Web Developer</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggler"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarToggle">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-me">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="showcase">
+    <header>
+      <div class="header-content text-center">
+        <h1 class="display-4 text-center devname">LaQuita Gollman</h1>
+        <p class="my-position">Software Developer</p>
+      </div>
+    </header>
+  </section>
+
+  <section id="about-me">
+    <div class="container">
+      <h2 class="text-uppercase text-center display-4 pt-3">About Me</h2>
+      <div class="row my-3 py-3">
+        <div class="col-md-6 profile-img-div">
+          <img alt="laquita bitmoji profile" src="assets/bitmoji-smile.png" class="rounded-circle img-fluid">
+        </div>
+        <div class="about-me__content col-md-6 pt-3">
+          <p>Hey, there! I'm LaQuita and I'm a Seattle-based web developer! I am passionate about making the web (and the industry
+            that builds it) a more diverse and accessible place. Most of my work has been front-end and Vanilla JS-based
+            but I also work with NodeJS, Express and MongoDB on the backend. Here's some of the tech I use:</p>
+          <span id="tech-stack">
+            <i class="stack-icons fab fa-html5 fa-3x"></i>
+            <i class="stack-icons fab fa-css3-alt fa-3x"></i>
+            <i class="stack-icons fab fa-js-square fa-3x"></i>
+            <i class="stack-icons fab fa-node-js fa-3x"></i>
+            <i class="stack-icons fab fa-git fa-3x"></i>
+          </span>
+          <br>
+          <br>
+          <p>Enough tech talk, though, here are some fun facts about me!</p>
+          <ul class="fun-facts">
+            <li class="pb-2"> I homeschool and I LOVE talking to people about homeschooling. Hit me with your best questions about it!</li>
+            <li class="pb-2"> I sew clothes for wrestling action figures in my spare time.</li>
+            <li class="pb-2"> In third grade, I lost the spelling bee because I misspelled ubiquitous. (And I had to google it just now to
+              make sure I spelled it right.)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="text-uppercase text-center display-4 section-title">My Work</h2>
+
+      <div class="row my-1 py-3 d-flex align-items-stretch">
+        <div class="card-deck">
+          <div class="card">
+            <!-- IMGs 239x180 -->
+            <img class="card-img-top" id="special" src="assets/screely-office.png" alt="The Office App Screenshot">
+            <div class="card-body">
+              <h4 class="card-title">The Office Quotes</h4>
+              <p class="card-text">Quotes from Michael G. Scott and crew! No API used for this one. Just a lot of Netflix watched. For research,
+                of course.</p>
+            </div>
+            <div class="card-footer bg-transparent">
+              <small class="text-uppercase">
+                <a class="card-footer-link" href="https://yoscheherazade.github.io/the-office-quotes-json/" target="_blank">View Live Demo</a>
+              </small>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="assets/mastertab-1.png" alt="Mastertab Screen Shot">
+            <div class="card-body">
+              <h4 class="card-title">MasterTab</h4>
+              <p class="card-text">A Chrome extension to help manage your browser sessions. Yes, you can finally close all 10 of your browser
+                windows - MasterTab will help you pick up where you left off!</p>
+            </div>
+            <div class="card-footer bg-transparent">
+              <small class="text-uppercase">
+                <a class="card-footer-link" href="https://chrome.google.com/webstore/detail/mastertab/kkppoollgonaafijjpaiamjkdpklbbbk"
+                  target="_blank">Download It!</a>
+              </small>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="assets/screely-caltrakr.png" alt="CalTrakr screen shot">
+            <div class="card-body">
+              <h4 class="card-title">CalTrakr+</h4>
+              <p class="card-text">An app that helps you keep track of your caloric intake. It's a rough job but someone has to do it, right?</p>
+            </div>
+            <div class="card-footer bg-transparent">
+              <small class="text-uppercase">
+                <a class="card-footer-link" href="https://yoscheherazade.github.io/cal-trakr/" target="_blank">View Live Demo</a>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-1 py-3 d-flex align-items-stretch">
+        <div class="card-deck">
+          <div class="card">
+            <!-- IMGs 239x180 -->
+            <img class="card-img-top" id="special" src="assets/screely-rgb.png" alt="RGB Game Screen shot">
+            <div class="card-body">
+              <h4 class="card-title">RGB Game</h4>
+              <p class="card-text">This is a game where players try to select the correct tile based on the RGB value given. Three levels: Easy,
+                Medium and Hard.</p>
+            </div>
+            <div class="card-footer bg-transparent">
+              <small class="text-uppercase">
+                <a class="card-footer-link" href="https://yoscheherazade.github.io/rgb-color-game/" target="_blank">View Live Demo</a>
+              </small>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="assets/screely-musingon.png" alt="Musing On Screen Shot">
+            <div class="card-body">
+              <h4 class="card-title">Musing On</h4>
+              <p class="card-text">A full-stack web application for users to create and share public or private stories. Users sign in with their
+                Google accounts and are able to post stories and comment on other people's stories.</p>
+            </div>
+            <div class="card-footer bg-transparent">
+              <small class="text-uppercase">
+                <a class="card-footer-link" href="http://musingon.life" target="_blank">View Live Demo</a>
+              </small>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="assets/screely-simpsons.png" alt="Simpsons App Screenshot">
+            <div class="card-body">
+              <h4 class="card-title">Simpsons Quotes</h4>
+              <p class="card-text">A quote generator that display quotes from one of my favorite childhood TV shows: The Simpsons!</p>
+            </div>
+            <div class="card-footer bg-transparent">
+              <small class="text-uppercase">
+                <a class="card-footer-link" href="https://codepen.io/AyYoQG/full/WZBKRE" target="_blank">View Live Demo</a>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="contact-me" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="contact-content">
+          <div class="col-md-8">
+            <h3>Want to work together? Contact me! Email:
+              <a class="email" href="mailto:laquita@laquitag.com">laquita@laquitag.com</a>
+            </h3>
+          </div>
+          <div class="col-md-4">
+            <img class="contact-image img-fluid" alt="bitmoji chat image" src="assets/bitmoji-chat.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="image-divider">
+    <div class="image-divider__content">
+      <h3>More of My Work Around the Web!</h3>
+      <ul class="social">
+        <li>
+          <a href="https://github.com/yoscheherazade" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.freecodecamp.org/yoscheherazade" target="_blank">
+            <i class="fab fa-free-code-camp"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://codepen.io/AyYoQG/" target="_blank">
+            <i class="fab fa-codepen"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p class="credit">Created with
+        <i class="fa fa-heart"></i> &
+        <i class="fa fa-coffee"></i> in Seattle by
+        <a href="http://twitter.com/loudblkgrl">LaQuita</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

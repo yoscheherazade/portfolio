@@ -1,0 +1,295 @@
+/* Color Vars
+	--main-text-color: #2C0E37;
+	--secondary-text-color: #DAA89B;
+*/
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6em;
+}
+
+nav {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    word-spacing: 0.3rem;
+    background-color: #2C0E37;
+    opacity: 0.9;
+}
+
+.navbar-nav > .nav-item a,
+.navbar-toggle-icon {
+  color: #D2527F;
+}
+
+#showcase {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 55%, 0 0, 100% 0, 100% 56%, 53% 79%);
+}
+  
+#showcase::before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+	opacity: .5; 
+}
+  
+h1, h2 {
+  	letter-spacing: 0.25rem;
+  	font-weight: 200;
+  	text-transform: uppercase;
+  	padding-top: 2.25rem;
+  }
+ 
+.devname {
+	color: #fff;
+	position: relative;
+	font-size: 5.5rem;
+	padding-top: 4.5rem;
+	text-shadow: 3px 4px gray;
+}
+
+.my-position {
+	font-family: 'Rock Salt', cursive;
+	font-size: 2.3rem;
+	line-height: 2.3;
+	letter-spacing: 0.2rem;
+}
+
+.rounded-circle {
+    height: 80vh;
+    position: relative;
+	top: -40px;
+}
+
+.about-me__content {
+	color: #550055;
+}
+
+#tech-stack {
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.stack-icons {
+	margin: 0 1.2rem;
+}
+
+.card-img-top {
+    max-height: 40vh;
+}
+
+.card-title {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card-body {
+	color: #550055;
+	border: 2px #55055 solid;
+}
+
+.card-footer {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card-footer-link {
+    color: #550055;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.card-footer-link:hover {
+	text-decoration: none;
+	color: #2C0E37;
+}
+
+#contact {
+    height: 30vh;
+    background-color: #2C0E37;
+    color: #DAA89B;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.email {
+    color: #550055;
+}
+
+.email:hover {
+    color: #DAA89B;
+    text-decoration: none;
+}
+
+.image-divider {
+    padding: 15% 0;
+	background:
+	url(https://static.pexels.com/photos/296114/pexels-photo-296114.jpeg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.7;
+	position: relative;
+}
+
+.image-divider::before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+	opacity: .8; 
+}
+
+.image-divider__content {
+	position: relative;
+	text-align: center;
+	text-shadow: 3px 2px #2C0E37;
+	color: #FFF;
+	opacity: 0.9;
+	padding: 0 0.15rem;
+}
+
+.social li {
+	display:inline;
+}
+   
+.social li a {
+	color:  #fff;
+	padding:1.5em;
+	font-size:1.8em;
+	font-weight:600;
+	text-shadow: 3px 2px #2C0E37;
+}
+   
+.social li a:hover {
+	color: #2C0E37;
+}
+
+footer {
+	background-color: #2C0E37;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.footer-content {
+	max-width: 960px;
+	padding: 2.5% 0;
+	margin: 0 auto;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1.4;
+	color: #fff;
+	letter-spacing: .03em;
+}
+.footer-content a {
+	color: #D2527F;
+	text-decoration: none;
+}
+   
+.credit {
+	text-align: center;
+	font-size: 1.3em;
+}
+
+@media only screen and (max-width:579px) {
+  
+ 	#showcase {
+      -webkit-clip-path: polygon(51% 56%, 100% 38%, 100% 0, 0 0, 0% 38%);
+  	}
+	
+	.devname {
+		padding-top: 0.9rem;
+		font-size: 3.5rem;
+	}
+	
+	.my-position {
+		letter-spacing: 0;
+		font-size: 1.0rem;
+	}
+  
+  	.about-me__content {
+		margin-top: 0;
+	}
+	
+	.rounded-circle {
+		display: block;
+		margin: auto;
+      	height: 50vh;
+	}
+	
+	#tech-stack {
+		display: inline-block;
+		margin-bottom: 0;
+	}
+    
+    .stack-icons {
+    	margin-bottom: 0.75rem;
+    }
+    
+    .fun-facts li {
+    	padding-left: 5px;
+    }
+    
+	#projects {
+	    padding: 3%;
+	}
+	
+	.card {
+		padding:  1.2rem;
+	}
+	
+	.card-img-top, .card-body {
+		padding: .25rem 3.9rem;
+	}
+	.image-divider__content {
+		padding: .5rem;
+	}
+	footer {
+		height: 130px;
+		line-height: 1.3em;
+	}
+	.footer-content {
+		padding: 4%;
+		font-size: 14px;
+	}
+	.social {
+		letter-spacing: 2.1em;
+	}
+	.social li a {
+		font-size: 1.3em;
+		padding: 0.5rem;
+		display: inline-block;
+		
+	}
+	.contact-content {
+		font-size: 12px;
+		line-height: 1.5;
+		display: flex;
+		flex-direction: column;
+		width: 100vh;
+		margin: auto;
+	}
+	
+}
